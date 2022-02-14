@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Pakistan: NextPage = () => {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -13,10 +13,10 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className={styles.main}>
-				<h1>Hello, Welcome to US</h1>
+				<h1>Hello, Welcome to Pakistan</h1>
 			</main>
 		</div>
 	);
 };
 
-export default Home;
+export default Pakistan;
